@@ -20,7 +20,7 @@ Suite Teardown    Close Connection
 
 *** Test Cases ***    EXPECTED             COMMAND 
 IP Address            ${ip_address}        printenv ipaddr
-BDINFO                ${mac_address}       bdinfo
+Mac Address           ${mac_address}       bdinfo
 Version               ${uboot_version}     version
 
 *** Keywords ***
